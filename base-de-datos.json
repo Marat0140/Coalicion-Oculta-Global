@@ -1,0 +1,12 @@
+{
+  "conditions": [
+    {
+      "name": "Tecnologia",
+      "descripciongeneral":"Siempre que sea posible, la División PHYSICS hará uso de tecnología de generación actual con el fin de minimizar el impacto a la Segunda Misión (Ocultación) en caso que el equipo se pierda o sea abandonado en el campo. Sin embargo, la naturaleza de la amenaza oculta que enfrentan los operativos de la GOC implica que se requiere la utilización de tecnología avanzada (de vanguardia) más allá de las normas actuales. A continuación, una descripción breve sobre la terminología usada para referirse a tecnología de vanguardia.",
+      "generacioncero":"También conocida como Gen Actual o Gen0. Refiere a cualquier tecnología que esté disponible al nivel actual de desarrollo tecnológico. La pérdida de equipo Gen0 es generalmente de preocupación mínima. La mayoría de los equipos expedidos por la División de Intendencia son de Generación Cero.",
+      "generacionuno":"También conocida como Gen+ o +1Gen. Refiere a cualquier tecnología considerada de punta o avanzada según el nivel tecnológico actual, pero que podría existir como prototipo o un objeto especialmente construido. La pérdida de equipo Gen+1 podría necesitar acciones de la División PSYCHE para minimizar el impacto a la Segunda Misión, pero en general no es un motivo de alarma indebida.",
+      "generaciondos":"También conocida como Gen++ o +2Gen. Refiere a cualquier tecnología claramente más allá de la habilidad para producir en el nivel tecnológico actual. Toda la tecnología Gen+2 expedida a operativos de la COG debe incluir un dispositivo de auto-destrucción fácilmente accesible para impedir que tecnología de vanguardia caiga en las manos del público general.",
+      "tangencial":"También conocida como GenAlt o TanGenT. La Tecnología Tangencial es cualquier pieza de tecnología que se base en principios distintos a los de la ciencia, como la magia o la fe. Toda Tecnología Tangencial que no esté en posesión de un operativo de la GOC debe considerarse Entidad Amenaza Conocida. La pérdida de Tecnología Tangencial podría requerir un Nivel de Respuesta 5 para impedir que el objeto sea descubierto al público."
+    }
+  ]
+}

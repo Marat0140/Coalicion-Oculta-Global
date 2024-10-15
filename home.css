@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #1a3e52;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.imagen-goc {
+    position: relative;
+    top: -10px;
+    height: 150px;
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed to inline-block for better alignment */
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+nav h1 {
+    color: white;
+    position: absolute; /* Changed to absolute for better positioning */
+    top: 40px; /* Adjusted;*/
+    left: 160px; /* Adjusted position */
+    font-size: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    background-color: #d7dae1;
+    width: 1349px;
+    height: 2400px;
+}
+
+h1.nombre {
+    position: absolute;
+    left: 210px;
+    top: 250px;
+    color: #8e1616;
+    font-size: 30px;
+}
+
+h2.lugar {
+    position: absolute;
+    left: 210px;
+    top: 300px;
+}
+
+p.nombre2 {
+  position: relative;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+p.texto {
+  position: relative;
+  top: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+h1.mision {
+    position: relative;
+    top: 70px;
+    font-size: 40px;
+    color: #8e1616;
+}
+
+p.descripcion {
+    position: relative;
+    top: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1.constitucion {
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    color: #8e1616;
+}
+
+p.texto-constitucion {
+    position: relative;
+    top: 145px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1.quintuple {
+    position: relative;
+    top: 220px;
+    font-size: 40px;
+    color: #8e1616;
+}
+
+p.mision-quintuple {
+    position: relative;
+    top: 250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+footer.pie {
+    position: relative;
+    top: 280px;
+    background-color: #d7dae1;
+}
+
+p.pie {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.resolucion {
+    width: 99%;
+    text-align: left;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
